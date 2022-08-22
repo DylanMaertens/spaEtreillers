@@ -31,19 +31,28 @@ nav a:hover{
     text-decoration: underline;
 }
 
+#presentation{
+    border: 1px solid beige;
+    margin: 5vh auto 0 auto;
+    width: 80%;
+}
+
 #informations{
     display: flex;
     justify-content: center;
     margin: auto;
-    width: 90%;
-    height: 50vh;
-    margin-top: 40vh;
-    transform:translateY(-50%)
+    width: 95%;
+    height: 70vh;
+    margin-top: 5vh;
 }
 
-#informations #info{
+#informations #image{
     border: 1px solid green;
     width: 60%;
+    background-color: aliceblue;
+    background-image: url("includes/images/imageDefaut.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #informations #prestations{
@@ -139,6 +148,10 @@ nav a:hover{
 }
 
 footer{
+    position:absolute;
+    margin-top: 10vh;
+    transform: translateY(-50%);
     background-color: #222;
+    width: 100%;
     min-height: 5em;
 }

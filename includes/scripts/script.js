@@ -19,8 +19,3 @@ menu3.addEventListener('click',()=>{
     menu1.classList.remove("active");
     menu2.classList.remove("active");
 })
-
-
-for(document.getElementsByClassName('menu')){
-    console.log('test');
-}
