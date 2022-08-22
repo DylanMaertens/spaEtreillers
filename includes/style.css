@@ -50,9 +50,11 @@ nav a:hover{
     border: 1px solid green;
     width: 60%;
     background-color: aliceblue;
-    background-image: url("includes/images/imageDefaut.jpg");
+    background-image: url(images/imageDefaut.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 50% 30%;
+    background-size: cover;
+    transition-duration: .7s;
 }
 
 #informations #prestations{
