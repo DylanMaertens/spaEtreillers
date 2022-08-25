@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="469"
+   height="410"
+   viewBox="0 0 469 410"
+   fill="none"
+   version="1.1"
+   id="svg43"
+   sodipodi:docname="Untitledforme1.svg"
+   inkscape:export-filename="Untitledforme1.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs47" />
+  <sodipodi:namedview
+     id="namedview45"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="1.4182101"
+     inkscape:cx="108.94013"
+     inkscape:cy="234.803"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg43" />
+  <path
+     id="rect29"
+     d="M 0,0 V 410 H 469 V 0 Z m 169.32422,278.92969 c 0.92287,-0.004 1.99518,0.23407 3.17383,0.79687 10.37822,4.9556 21.13249,9.06261 31.94531,12.95508 7.56235,2.67804 15.19859,5.1373 22.9043,7.36719 6.69145,1.93639 4.73406,8.69549 -1.95704,6.75781 -7.84912,-2.27304 -15.62899,-4.77426 -23.33203,-7.50391 -11.11368,-4.00321 -22.16685,-8.22543 -32.82421,-13.34179 -5.10237,-2.44953 -3.90926,-7.01528 0.0898,-7.03125 z" />
+  <path
+     d="M467 3.5C467.828 3.5 468.5 2.82843 468.5 2C468.5 1.17157 467.828 0.5 467 0.5V3.5ZM1 3.5L467 3.5V0.5L1 0.5L1 3.5Z"
+     fill="white"
+     id="path31" />
+  <path
+     d="M465.5 408C465.5 408.828 466.172 409.5 467 409.5C467.828 409.5 468.5 408.828 468.5 408H465.5ZM465.5 2V408H468.5V2H465.5Z"
+     fill="white"
+     id="path33" />
+  <path
+     d="M1 2L136 79.5L182.5 180.5L312.5 226L389 332.5L467 408"
+     stroke="white"
+     stroke-width="3"
+     id="path35" />
+  <path
+     d="M72 21L445.374 21"
+     stroke="white"
+     stroke-width="2.4037"
+     stroke-linecap="round"
+     id="path37" />
+  <path
+     d="M445.374 21V346.3"
+     stroke="white"
+     stroke-width="2.4037"
+     stroke-linecap="round"
+     id="path39" />
+  <path
+     d="M72 21L180.166 83.0955L217.424 164.02L321.584 200.476L382.878 285.807L445.374 346.3"
+     stroke="white"
+     stroke-width="2.4037"
+     id="path41" />
+  <path
+     style="fill:#000000;stroke-width:0.703674"
+     d="M 427.61638,367.20265 390.45593,331.22727 352.09717,277.81224 313.73842,224.39721 248.8089,201.67687 183.87938,178.95654 160.67286,128.53907 137.46633,78.12161 73.100637,41.171828 8.7349416,4.2220453 236.69617,4.0450525 c 125.37868,-0.097346 228.06781,-0.070406 228.19809,0.059868 0.13027,0.1302732 0.15714,89.9750155 0.0597,199.6549795 l -0.17715,199.41812 z M 446.4813,183.60034 V 19.702878 H 258.60992 c -169.084671,0 -187.892379,0.109005 -188.081315,1.090073 -0.150541,0.781692 14.677351,9.624788 52.414095,31.258849 28.94321,16.592827 53.42451,30.719013 54.40289,31.391529 1.31915,0.906748 6.48677,11.46844 19.99575,40.867761 10.01929,21.80475 18.47485,39.98681 18.79015,40.40456 0.3153,0.41777 23.94055,8.93236 52.50056,18.92133 l 51.92729,18.16176 30.51144,42.48322 30.51144,42.48323 31.59863,30.64994 c 17.37924,16.85746 31.98153,30.5223 32.44953,30.36629 0.66219,-0.22073 0.85092,-36.6348 0.85092,-164.18108 z"
+     id="path341" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:59.3914px;line-height:0;font-family:'Linux Libertine G';-inkscape-font-specification:'Linux Libertine G, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:1.11363"
+     x="176.45227"
+     y="-92.676498"
+     id="text397"
+     transform="matrix(0.66185307,0.67943432,-0.75519513,0.73565347,0,0)"><tspan
+       sodipodi:role="line"
+       id="tspan395"
+       x="176.45227"
+       y="-92.676498"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:59.3914px;font-family:'Linux Libertine G';-inkscape-font-specification:'Linux Libertine G, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.11363">TEXTE TEST</tspan></text>
+</svg>
