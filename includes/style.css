@@ -16,8 +16,10 @@ body{
 
 #background1{
     position: absolute;
-    left: 100vw;
-    transform:  translate(-31.4vw,7vh) scale(1.5);
+    left: 100%;
+    transform: translateX(-100%);
+    top: 0;
+    width: 50vw;
     z-index: -1;
 }
 
