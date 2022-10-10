@@ -15,7 +15,7 @@ menu1.addEventListener('click',()=>{
         menu2.classList.remove('active');
         menu3.classList.remove('active');
     }else{
-        bgImage.style.backgroundImage = "url(includes/images/imageDefaut.jpg)";
+        bgImage.style.backgroundImage = "url(https://source.unsplash.com/random/900×700/?spa,night)";
         menu1.classList.remove("active");
     }
 })
@@ -27,7 +27,7 @@ menu2.addEventListener('click',()=>{
         menu1.classList.remove("active");
         menu3.classList.remove("active");
     }else{
-        bgImage.style.backgroundImage = "url(includes/images/imageDefaut.jpg)";
+        bgImage.style.backgroundImage = "url(https://source.unsplash.com/random/900×700/?night,spa)";
         menu2.classList.remove("active");
     }
 })
@@ -39,7 +39,7 @@ menu3.addEventListener('click',()=>{
         menu1.classList.remove("active");
         menu3.classList.add("active");
     }else{
-        bgImage.style.backgroundImage = "url(includes/images/imageDefaut.jpg)";
+        bgImage.style.backgroundImage = "url(https://source.unsplash.com/random/900×700/?spa,boobs)";
         menu3.classList.remove("active");
     }
 })

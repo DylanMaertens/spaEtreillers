@@ -1,1 +1,5 @@
 footer > CGU / Mentions légales / Cookies
+
+Créer formulaire de réservation → Nom Prénom Email Date(Calendrier)
+
+Préstations → Titre,Description,Prix,Horraire
