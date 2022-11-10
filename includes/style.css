@@ -14,16 +14,7 @@ body{
     color: whitesmoke;
 }
 
-#background1{
-    position: absolute;
-    left: 100%;
-    transform: translateX(-100%);
-    top: 0;
-    width: 50vw;
-    z-index: -1;
-}
-
-nav{
+/* nav{
     display: flex;
     justify-content: center;
     gap:60px;
@@ -45,26 +36,29 @@ nav a:hover{
     background-color: gray;
     border-radius: 20px;
 
-}
+} */
 
 #presentation{
     border: 1px solid beige;
-    margin: 5vh auto 0 auto;
+    margin: 2vh auto 0 auto;
     width: 80%;
     font-size: 18px;
+    padding: .3em;
 }
 
 #contactForm{
     position: absolute;
     display: none;
+    top: 50vh;
     width: 30%;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    backdrop-filter: blur(20px);
+    margin-left: 30%;
+    transform: translate(-50%,-50%);
+    backdrop-filter: blur(5px);
 }
 
 #contactForm form{
-    border: 1px solid greenyellow;
+    border: 1px solid black;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -80,7 +74,7 @@ nav a:hover{
     border-radius: 20px;
     width: max-content;
     color: black;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: bolder;
     cursor: pointer;
@@ -91,11 +85,12 @@ nav a:hover{
     font-size: 1.1em;
     text-decoration: none;
     outline: none;
+    font-size: 18px;
+    background-color: rgba(200, 200,200, .9);
 }
 
 #contactForm form input:focus,#contactForm form textarea:focus{
-    outline: 5px solid black;
-
+    outline: 1.5px solid black;
 }
 
 #contactForm form input[type='submit']{
@@ -107,17 +102,17 @@ nav a:hover{
     display: flex;
     justify-content: center;
     margin: auto;
-    margin-bottom: 5em;
+    margin-bottom: 4em;
     width: 95%;
     height: 70vh;
     margin-top: 5vh;
 }
 
 #informations #image{
-    border: 1px solid green;
+    border-right: 2px solid #111;
     width: 60%;
     background-color: aliceblue;
-    background-image: url(https://source.unsplash.com/random/900×700/?spa,detente);
+    background-image: url(images/imageDefaut.jpg);
     background-color: #333;
     background-repeat: no-repeat;
     background-position: 50% 30%;
@@ -126,8 +121,8 @@ nav a:hover{
 }
 
 #informations #prestations{
-    background-color: #444;
-    border: 1px solid yellow;
+    /* background-color: #444; */
+    /* border: 1px solid yellow; */
     width: 40%;
 }
 
@@ -140,15 +135,12 @@ nav a:hover{
 
 .cadrePresta .prestationsBouton{
     display: block;
-    border: 1px solid black;
-    padding: .7em;
+    padding:0 .7em;
     text-align: center;
     user-select: none;
 }
 
-.cadrePresta .prestationsBouton .menu1,
-.cadrePresta .prestationsBouton .menu2,
-.cadrePresta .prestationsBouton .menu3{
+.cadrePresta .prestationsBouton .menu{
     display: block;
     background-color: #555;
     border: 2px solid black;
@@ -158,21 +150,18 @@ nav a:hover{
     transition-duration: .7s;
 }
 
-.cadrePresta .prestationsBouton .menu1 ~ .content,
-.cadrePresta .prestationsBouton .menu2 ~ .content,
-.cadrePresta .prestationsBouton .menu3 ~ .content{
+.cadrePresta .prestationsBouton .menu ~ .content{
     display: none;
 }
 
-.cadrePresta .prestationsBouton .menu1.active ~ .content,
-.cadrePresta .prestationsBouton .menu2.active ~ .content,
-.cadrePresta .prestationsBouton .menu3.active ~ .content{
+.cadrePresta .prestationsBouton #menu1.active ~ .content,
+.cadrePresta .prestationsBouton #menu2.active ~ .content,
+.cadrePresta .prestationsBouton #menu3.active ~ .content{
     display: block;
+    background-color: #222;
 }
 
-.cadrePresta .prestationsBouton .menu1:hover,
-.cadrePresta .prestationsBouton .menu2:hover,
-.cadrePresta .prestationsBouton .menu3:hover{
+.cadrePresta .prestationsBouton .menu:hover{
     color: aquamarine;
 }
 
@@ -187,17 +176,18 @@ nav a:hover{
     transition-duration: .4s;
 }
 
-.cadrePresta .prestationsBouton .menu1.active .fleche,
-.cadrePresta .prestationsBouton .menu2.active .fleche,
-.cadrePresta .prestationsBouton .menu3.active .fleche{
+.cadrePresta .prestationsBouton .menu.active{
+color: aquamarine;
+}
+
+.cadrePresta .prestationsBouton .menu.active .fleche{
     transform: rotate(180deg);
-    color:aquamarine
 }
 
 .cadrePresta .prestationsBouton .content{
     display:flex;
     flex-direction: column;
-    border: 1px solid blue;
+    border: 1.5px solid #111;
     margin: .5em;
     padding: .5em;
     text-align: left;
@@ -212,9 +202,29 @@ nav a:hover{
     border-top: 2px solid black;
 }
 
-.cadrePresta .prestationsBouton .content .prestaBas a{
-    color:white;
+.cadrePresta .prestationsBouton .content .prestaBas span{
+    font-size: 18px;
+}
+
+.cadrePresta .prestationsBouton .content .prestaBas span:hover{
+    cursor:pointer;
     text-decoration: none;
+    font-size: 18px;
+    animation: animate 2s infinite;
+}
+
+@keyframes animate {
+    0%{
+        color: aliceblue;
+        transform: scale(1.1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        color: whitesmoke;
+        transform: scale(1.1);
+    }
 }
 
 footer{
@@ -226,7 +236,7 @@ footer{
     font-size: 1.2em;    
     background-color: #222;
     width: 100%;
-    min-height: 8em;
+    min-height: 3.4em;
 }
 
 footer a{
