@@ -6,7 +6,7 @@ window.addEventListener('DOMContentLoaded',()=>{
     
     let minute = time.getMinutes();
     let heure = time.getHours();
-    let jour = time.getDay() + 6;
+    let jour = time.getDate() ;
     let mois = time.getMonth() + 1;
     let annee = time.getFullYear();
     
@@ -25,8 +25,12 @@ let menu3 = document.querySelector("#menu3");
 let contactBtn = document.querySelector('#contactBtn');
 let fermerFormBtn = document.querySelector('#fermerFormBtn');
 let contactForm = document.querySelector('#contactForm');
+let submitButon = document.querySelector('#submitButon');
 let bgImage = document.getElementById('image');
 
+// if(contactForm.valid){
+//     submitButon.style.background = "red";
+// }
 
 menu1.addEventListener('click',()=>{
     console.log("menu1");

@@ -4,5 +4,4 @@ Créer formulaire de réservation → Nom Prénom Email Date(Calendrier)
 
 Préstations → Titre,Description,Prix,Horraire
 
-
-Formulaire faire en sorte que la date min pour réserver soi le jour même avec JS s'actualise quand on arrive sur le site avec domloadcontent 
+Lors de la validation de la réservation par l'hote envoyer un mail automatiquement aux personnes résponsable de "l'approvisionnement alimentaire"

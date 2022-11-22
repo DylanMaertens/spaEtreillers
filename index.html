@@ -18,18 +18,17 @@
     <div id="contactForm">
         <form action="" method="post">
             <span id="fermerFormBtn">FERMER</span>
-            <input type="email" name="emailForm" placeholder="Votre Email" required>
+            <input type="email" name="emailForm" placeholder="Email" required>
             <input type="text" name="prenomForm" placeholder="Prénom" required>
             <br>
             <textarea name="textareaForm" cols="30" rows="13" placeholder="Votre message ... (optionnel)"></textarea>
-            <input type="text" id="prestation" name="prestation" placeholder="Veuillez selectionner une prestation dans la liste de droite" required disabled>
+            <input type="text" id="prestation" name="prestation" placeholder="Veuillez selectionner une prestation dans la liste de droite" required>
             <input type="datetime-local" id="dateReservation" name="dateReservation" required>
-            <input type="submit" value="Envoyer"> 
+            <input type="submit" id="submitButon" value="Envoyer"> 
         </form>
     </div>
     <section id="informations">
         <div class="cadre" id="image"></div>
-
         <div class="cadrePresta" id="prestations">
             
             <div class="prestationsBouton">
