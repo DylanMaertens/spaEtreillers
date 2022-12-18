@@ -1,6 +1,7 @@
 console.log("Hello World !");
 
 let time = new Date();
+
 window.addEventListener('DOMContentLoaded',()=>{
     console.log('loaded');
     
@@ -27,10 +28,6 @@ let fermerFormBtn = document.querySelector('#fermerFormBtn');
 let contactForm = document.querySelector('#contactForm');
 let submitButon = document.querySelector('#submitButon');
 let bgImage = document.getElementById('image');
-
-// if(contactForm.valid){
-//     submitButon.style.background = "red";
-// }
 
 menu1.addEventListener('click',()=>{
     console.log("menu1");
@@ -89,15 +86,15 @@ let prestationSelectionner = document.querySelector('#prestation');
 
 reserve1.addEventListener('click',()=>{
     contactForm.style.display = "block";
-    prestationSelectionner.value = "prestation 1"
+    prestationSelectionner.value = "Prestation 1"
 })
 
 reserve2.addEventListener('click',()=>{
     contactForm.style.display = "block";
-    prestationSelectionner.value = "prestation 2"
+    prestationSelectionner.value = "Prestation 2"
 })
 
 reserve3.addEventListener('click',()=>{
     contactForm.style.display = "block";
-    prestationSelectionner.value = "prestation 3"
+    prestationSelectionner.value = "Prestation 3"
 })

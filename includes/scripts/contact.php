@@ -15,7 +15,7 @@ if(isset($_POST['submitMailto'])){
             $message = htmlspecialchars(nl2br($_POST['messageMailto']));
 
             $destinataire = "dylanmaertens.pro@protonmail.com";
-            $messageMail = "Ce message a été envoyé depuis le formulaire de la crèche
+            $messageMail = "Ce message a été envoyé depuis le formulaire du spa
             Nom : ".$nom."
             Prénom : ".$prenom."
             Email : ".$mail;

@@ -1,0 +1,49 @@
+body{
+    overflow-x: hidden;
+}
+
+#retour{
+    display: block;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    background-color: #555;
+    text-align: center;
+    width: 100vw;
+    padding: .3em;
+    margin-bottom: 1em;
+}
+
+.gridCalendar{
+    background-color: #222;
+    display:grid;
+    grid-template: fit-content(100%) / 2% 15% 15% 25% 2% 5% 5% ;
+    justify-content: center;
+    text-align:left;
+    align-items: center;
+    padding: 1em 0;
+}
+
+.gridCalendar:nth-child(1){
+    text-align: center;
+}
+
+.gridCalendar p{
+    font-size: 18px;
+}
+
+.gridCalendar a img{
+    background-color: #555;
+    border-radius: 30%;
+    padding: .1em;
+    width: 50px;
+    height: 50px;
+}
+
+.gridCalendar  img{
+    background-color: #555;
+    border-radius: 30%;
+    padding: .1em;
+    width: 50px;
+    height: 50px;
+}

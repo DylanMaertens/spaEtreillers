@@ -19,6 +19,25 @@ body{
     color: var(--textColor);
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 2px;
+    }
+
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #333;
+    }
+
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--borderColor);
+    }
+
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+}
 /* nav{
     display: flex;
     justify-content: center;
@@ -85,7 +104,8 @@ nav a:hover{
     cursor: pointer;
 }
 
-#contactForm form input,#contactForm form textarea{
+#contactForm form :where(input,textarea){
+/* #contactForm form input,#contactForm form textarea{ */
     padding: .5em ;
     font-size: 1.1em;
     text-decoration: none;
@@ -141,7 +161,7 @@ nav a:hover{
     background-color: #333;
     background-repeat: no-repeat;
     background-position: 50% 30%;
-    background-size: cover;
+    background-size: 100% 100%;
     transition-duration: .7s;
 }
 
@@ -268,4 +288,48 @@ footer{
 
 footer a{
     color:white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer img{
+    filter:invert();
+    width:25px;
+    height: 25px;
+    transform: translateY(10%);
+}
+/* Login */
+
+#loginForm{
+    /* border:1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50vh;
+    transform: translateY(-100%);
+}
+
+#loginForm a{
+    color: white;
+    background-color: #222;
+    padding: .5em 1em;
+    text-decoration: none;
+    border: 1.5px solid var(--borderColor);
+    border-radius: 10px;
+    font-size: 16px;
+    transition-duration: .7s;
+}
+
+#loginForm a:hover{
+    text-decoration: underline;
+}
+
+#loginForm input{
+    padding: .5em 1em;
+    font-size: 16px;
+    border: 1.5px solid var(--borderColor);
 }
